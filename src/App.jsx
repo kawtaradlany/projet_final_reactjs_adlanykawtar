@@ -10,6 +10,7 @@ import { Shop } from './pages/shop/shop.jsx';
 import { Product } from './pages/product/product.jsx';
 import { Carte } from './pages/carte/carte.jsx';
 import { CartProvider } from 'react-use-cart';
+import { User } from './pages/user/user.jsx';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/shop' element={<Shop/>}/>
                 <Route path='/product/:name' element={<Product />}/>
                 <Route path='/carte' element ={<Carte/>}/>
+                <Route path='/user' element= {<User/>}/>
                 
             </Routes>
             <Footer/>

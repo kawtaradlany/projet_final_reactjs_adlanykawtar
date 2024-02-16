@@ -32,7 +32,7 @@ export function Header() {
             <MdOutlineShoppingBag  />
           </button>
           <p>|</p>
-          <button>
+          <button onClick={(e)=> {navigate('/user')}}>
             <HiOutlineUserCircle />
           </button>
         </div>
